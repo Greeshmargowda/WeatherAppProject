@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-// For free Weatherstack plans you MUST use http, not https
-const API_BASE_URL = 'http://api.weatherstack.com';
+const API_BASE_URL = 'https://api.weatherstack.com';
 const API_KEY = import.meta.env.VITE_WEATHERSTACK_API_KEY;
 
 const MODES = {
